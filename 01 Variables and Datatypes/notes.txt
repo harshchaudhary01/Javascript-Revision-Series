@@ -1,0 +1,47 @@
+JS is a programming language. We use it to give instructions to the computer.
+
+JS is a dynamically typed language, no need to mention the datatype to any variable...
+
+JS variables are case-sensitive...
+
+Input(code) -> Computer -> Output
+
+Console is a part of browser where we can write the JS Code...
+ctrl+K -> to clean the console
+ctrl+R -> to reload the website/console
+
+giving *null vs undefined* to a variable
+
+undefined -> don't know what is inside this variable
+null -> we know that nothing is inside this variable
+
+//todo: Var, Let & Const...
+
+var -> Variable can be redeclared and updated. A global scope variable
+let -> Variable cann't be redeclared but can be updated. A block scope variable
+const -> Variable neither redeclared nor updated. A block scope variable
+
+//todo: Datatypes in JS
+ 1.) Primitve Datatypes(7):
+    > Number (can be +ve, -ve, decimal, integer, double, etc)
+    > String (any txt data- e.g., name, address, etc)
+    > Boolean (true or false)
+    > undefined (the varibale having no value initialized considered as undefined)
+    > null (means an absence of an object, exploring later)
+    > BigInt (to store large integers, e.g. let x = BigInt("123456") -> o/p -> 123456n)
+    > Symbol (let y = Symbol("Hello!") -> o/p -> Symbol("Hello!") )
+
+ 2.) Non-Primitve Datatypes:
+    > Object(Incl. Arrays and functions)
+        e.g -> Key value pair in a block...
+        const student = {
+            name: "Harsh",
+            roll: 11,
+            section: "K23EU",
+            age: 19,
+            isPass: true
+        }
+
+    How to access the object value :- 2 ways->
+        > student["roll"]
+        > student.roll
