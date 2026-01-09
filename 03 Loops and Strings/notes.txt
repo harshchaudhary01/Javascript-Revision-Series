@@ -1,0 +1,23 @@
+//todo: Instead of for loops, while loops and do-while loops there are two more loops which are based upon iterations...
+
+1.) for-of loops
+->  let str = "Harsh";
+    for(let i of str){
+        console.log("i = ",i);
+    }
+
+2.) for-in loops
+-> (generally this loop is use in the Arrays and Objects)
+
+    for(let i in product){
+        console.log(i); // it will print all the key of the student object
+    }
+
+//todo: Template Literals in JS
+-> A way to have embedded expressions in String
+   `This is a template literal`
+
+   //todo: String Interpolation
+   -> To create strings by doing substitutions of placeholders
+     e.g., `My name is ${inputName}, and I am learning ${subjectName}`
+     
