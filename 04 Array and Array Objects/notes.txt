@@ -1,0 +1,11 @@
+Array Methods in JS
+
+Push() -> add to the end and return the updated length.
+Pop() -> delete from the end and return the updated length.
+toString() -> converts array to string.
+concat() -> join multiple array and return result.
+unshift() -> add to start.
+shift() -> delete from start and return.
+slice() -> return a piece of the array. {  slice(startIdx,endIdx)  }
+        -> sometimes, arr.slice() -> this only use for creating the copy of the array...
+splice() -> change original array(add,remove, replace). {  splice(startIdx,delCount,newElement1...)  }
